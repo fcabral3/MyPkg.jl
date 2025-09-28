@@ -1,0 +1,13 @@
+name = "MyPkg"
+uuid = "6fecf2f6-04e4-4bd7-b314-0695e1cbe436"
+authors = ["Filipe Cabral"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
