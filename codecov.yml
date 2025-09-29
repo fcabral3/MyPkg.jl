@@ -1,0 +1,4 @@
+    # Example codecov.yml for path fixing
+    fixes:
+      - "/home/runner/work/MyPkg.jl/MyPkg.jl/::" # Removes the CI-specific prefix
+      - "src/::" # If your report includes "src/" but your repo doesn't
